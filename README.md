@@ -91,16 +91,16 @@ Aggregate Report cung cấp thêm các chỉ số thống kê như Median, 90% L
 
 ## 6. Kết quả kiểm thử
 
-Sau khi chạy Test Plan, kết quả được ghi nhận như sau:
+Số liệu dưới đây được tính trực tiếp từ file `results/user-api-result.jtl`:
 
 | Chỉ số | Kết quả |
 |---|---:|
-| Samples | [Điền theo Summary Report] |
-| Average | [Điền theo Summary Report] |
-| Min | [Điền theo Summary Report] |
-| Max | [Điền theo Summary Report] |
-| Error % | [Điền theo Summary Report] |
-| Throughput | [Điền theo Summary Report] |
+| Samples | 50 |
+| Average | 136.78 ms |
+| Min | 57 ms |
+| Max | 1208 ms |
+| Error % | 0.00% |
+| Throughput | 5.31 request/giây |
 
 File kết quả được lưu tại:
 
@@ -113,4 +113,3 @@ results/user-api-result.jtl
 Qua bài thực hành, em đã biết cách sử dụng Apache JMeter để kiểm thử API cơ bản. Kịch bản kiểm thử đã mô phỏng 10 người dùng gửi request đến API `/users/1`. Response Assertion giúp kiểm tra phản hồi có chứa dữ liệu mong muốn là `username`. Nếu Error % bằng 0.00% thì có thể kết luận các request trong lần chạy kiểm thử đều thành công.
 
 JMeter là công cụ hữu ích để đánh giá thời gian phản hồi, tỷ lệ lỗi và khả năng xử lý request của hệ thống.
-
