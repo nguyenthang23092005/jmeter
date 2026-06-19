@@ -1,0 +1,6 @@
+# Không cần đẩy file tạm của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Có thể bỏ comment nếu không muốn nộp file kết quả lớn
+# results/*.jtl
